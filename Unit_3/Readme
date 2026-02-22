@@ -1,0 +1,25 @@
+//  Funtion
+// It's is block of code in which we perform multiple task and multiple time also.
+
+// there are four type of funtion 
+// which written below
+// funtion with return
+// funtion with non return
+// funtion with parameter
+// funtion with non parameter
+
+// Recursion 
+// It's is one of the type of the loop in which we will call the funtion recursively.
+// there are serveral types of it which is written below.
+
+// Direct Recursion : In this funtion we call funtion directly.
+// Indirect Recursion : In this funtion we call indrectly funtion directly. Exp. a calls b calls c calls d calls a.
+// Tail Revcursion : In this when we call one last funtion is known as tail recursion.
+// Non Tail Recursion : In this when we call funtion again and again it's known as non tail recursion.
+
+// Pointers
+// It stores the address of another variable.
+// Expl. : - int a = 10; int *ptr = &a;
+
+// where * is showing values.
+// where & is showing addresses.
