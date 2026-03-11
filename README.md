@@ -1,24 +1,25 @@
-# ð Object-Oriented Programming (OOP) â B.Tech ECE
+# 📚 Object-Oriented Programming (OOP) - B.Tech ECE
 
 A structured collection of C++ programs covering core concepts of Object-Oriented Programming, organized unit-wise as part of the B.Tech ECE curriculum.
 
 ---
 
-## ð Project Structure
+## 📂 Project Structure
 
 ```
 OOPS/
-âââ Unit_1/          # Operators & Type Casting
-âââ Unit_2/          # Control Flow & Pattern Programs
-âââ Unit_3/          # OOP Concepts, Functions, Recursion & More
-    âââ Encapsulation/
-    âââ Inheritance/
-    âââ polymorphism/
+├── Unit_1/          # Operators & Type Casting
+├── Unit_2/          # Control Flow & Pattern Programs
+└── Unit_3/          # OOP Concepts, Functions, Recursion & More
+    ├── Encapsulation/
+    ├── Inheritance/
+    │   └── labs-11-03-2026/
+    └── polymorphism/
 ```
 
 ---
 
-## ð·ï¸ Unit 1 â Operators & Basics
+## 🏷️ Unit 1 - Operators & Basics
 
 Covers fundamental C++ operators and type casting concepts.
 
@@ -36,7 +37,7 @@ Covers fundamental C++ operators and type casting concepts.
 
 ---
 
-## ð·ï¸ Unit 2 â Control Flow & Pattern Programs
+## 🏷️ Unit 2 - Control Flow & Pattern Programs
 
 Covers loops, conditional statements, and mathematical programs.
 
@@ -57,11 +58,11 @@ Covers loops, conditional statements, and mathematical programs.
 
 ---
 
-## ð·ï¸ Unit 3 â OOP Concepts in C++
+## 🏷️ Unit 3 - OOP Concepts in C++
 
 Core Object-Oriented Programming topics: classes, objects, functions, pointers, recursion, and more.
 
-### ð· Core Topics
+### 🔷 Core Topics
 
 | File | Description |
 |------|-------------|
@@ -72,10 +73,10 @@ Core Object-Oriented Programming topics: classes, objects, functions, pointers, 
 | [`recursionFact.cpp`](Unit_3/recursionFact.cpp) | Factorial using recursion |
 | [`recursionFab.cpp`](Unit_3/recursionFab.cpp) | Fibonacci using recursion |
 | [`recursionSumOfNatural.cpp`](Unit_3/recursionSumOfNatural.cpp) | Sum of natural numbers using recursion |
-| [`pointerBasic.cpp`](Unit_3/pointerBasic.cpp) | Pointer basics â address and value access |
+| [`pointerBasic.cpp`](Unit_3/pointerBasic.cpp) | Pointer basics - address and value access |
 | [`arrays.cpp`](Unit_3/arrays.cpp) | Array declaration, traversal and operations |
 | [`String.cpp`](Unit_3/String.cpp) | String manipulation in C++ |
-| [`structure.cpp`](Unit_3/structure.cpp) | Structures â declaration and usage |
+| [`structure.cpp`](Unit_3/structure.cpp) | Structures - declaration and usage |
 | [`constructor.cpp`](Unit_3/constructor.cpp) | Constructor concept in C++ |
 | [`Teachearclass.cpp`](Unit_3/Teachearclass.cpp) | Class and object concept using a Teacher example |
 | [`friendFuntion.cpp`](Unit_3/friendFuntion.cpp) | Friend function basics |
@@ -84,7 +85,7 @@ Core Object-Oriented Programming topics: classes, objects, functions, pointers, 
 
 ---
 
-### ð Encapsulation
+### 🔒 Encapsulation
 
 > Bundling data (variables) and methods into a single unit (class), restricting direct access using access specifiers.
 
@@ -94,38 +95,51 @@ Core Object-Oriented Programming topics: classes, objects, functions, pointers, 
 
 ---
 
-### ð§¬ Inheritance
+### 🧬 Inheritance
 
 > The process by which a derived class acquires properties and behaviors from a base class.
 
 | Type | File | Description |
 |------|------|-------------|
 | **Basic** | [`Inheritence.cpp`](Unit_3/Inheritance/Inheritence.cpp) | Introduction to inheritance in C++ |
-| **Done** | [`inheritanceDone.cpp`](Unit_3/Inheritance/inheritanceDone.cpp) | `Person â Student` and `Person â Teacher` (hierarchical demo) |
+| **Done** | [`inheritanceDone.cpp`](Unit_3/Inheritance/inheritanceDone.cpp) | `Person -> Student` and `Person -> Teacher` (hierarchical demo) |
 | **Single** | [`singleInheritance.cpp`](Unit_3/Inheritance/singleInheritance.cpp) | One base class, one derived class |
 | **Multiple** | [`multipleInheritance.cpp`](Unit_3/Inheritance/multipleInheritance.cpp) | One derived class inheriting from multiple base classes |
-| **Multilevel** | [`multilevelInheritance.cpp`](Unit_3/Inheritance/multilevelInheritance.cpp) | Chain of inheritance: A â B â C |
+| **Multilevel** | [`multilevelInheritance.cpp`](Unit_3/Inheritance/multilevelInheritance.cpp) | Chain of inheritance: A -> B -> C |
 | **Hierarchical** | [`hierarchicalInheritance.cpp`](Unit_3/Inheritance/hierarchicalInheritance.cpp) | Multiple derived classes from a single base class |
 | **Hybrid** | [`hybridInheritance.cpp`](Unit_3/Inheritance/hybridInheritance.cpp) | Combination of two or more types of inheritance |
 | **Practice** | [`nonatanned.cpp`](Unit_3/Inheritance/nonatanned.cpp) | Inheritance practice program 1 |
 | **Practice** | [`nonatanned1.cpp`](Unit_3/Inheritance/nonatanned1.cpp) | Inheritance practice program 2 |
 | **Practice** | [`nonatanned2.cpp`](Unit_3/Inheritance/nonatanned2.cpp) | Inheritance practice program 3 |
 
+#### 🧪 Lab Programs (11-03-2026)
+
+| File | Description |
+|------|-------------|
+| [`singleInheritance.cpp`](Unit_3/Inheritance/labs-11-03-2026/singleInheritance.cpp) | Lab: Single inheritance implementation |
+| [`multipleinheritance.cpp`](Unit_3/Inheritance/labs-11-03-2026/multipleinheritance.cpp) | Lab: Multiple inheritance implementation |
+| [`multilevelInheritance.cpp`](Unit_3/Inheritance/labs-11-03-2026/multilevelInheritance.cpp) | Lab: Multilevel inheritance implementation |
+| [`hierachialinheritance.cpp`](Unit_3/Inheritance/labs-11-03-2026/hierachialinheritance.cpp) | Lab: Hierarchical inheritance implementation |
+| [`Encapsulation.cpp`](Unit_3/Inheritance/labs-11-03-2026/Encapsulation.cpp) | Lab: Encapsulation demonstration |
+| [`FUNTIONoVERLOADING.CPP`](Unit_3/Inheritance/labs-11-03-2026/FUNTIONoVERLOADING.CPP) | Lab: Function overloading examples |
+| [`operatorOverloading.cpp`](Unit_3/Inheritance/labs-11-03-2026/operatorOverloading.cpp) | Lab: Operator overloading examples |
+| [`constuctor_overloading.cpp`](Unit_3/Inheritance/labs-11-03-2026/constuctor_overloading.cpp) | Lab: Constructor overloading examples |
+
 ---
 
-### ð Polymorphism
+### 🔄 Polymorphism
 
 > The ability of a function or operator to behave differently based on different inputs or contexts.
 
 | File | Description |
 |------|-------------|
 | [`polymorphism.cpp`](Unit_3/polymorphism/polymorphism.cpp) | Introduction to Polymorphism in C++ |
-| [`funOverloading.cpp`](Unit_3/polymorphism/funOverloading.cpp) | **Function Overloading** â same function `add()` with 0, 1, 2, 3 arguments |
-| [`operatorOverloading.cpp`](Unit_3/polymorphism/operatorOverloading.cpp) | **Operator Overloading** â redefining operators for user-defined types *(in progress)* |
+| [`funOverloading.cpp`](Unit_3/polymorphism/funOverloading.cpp) | **Function Overloading** - same function `add()` with 0, 1, 2, 3 arguments |
+| [`operatorOverloading.cpp`](Unit_3/polymorphism/operatorOverloading.cpp) | **Operator Overloading** - redefining operators for user-defined types *(in progress)* |
 
 ---
 
-## ð¡ Key Concepts Covered
+## 💡 Key Concepts Covered
 
 ### Functions
 - Function with / without return value
@@ -137,20 +151,20 @@ Core Object-Oriented Programming topics: classes, objects, functions, pointers, 
   - Non-Tail Recursion
 
 ### Pointers
-- `*` â dereference (get value)
-- `&` â address-of operator
+- `*` - dereference (get value)
+- `&` - address-of operator
 
 ### OOP Pillars
 | Concept | Status |
 |---------|--------|
-| **Encapsulation** | â Covered |
-| **Inheritance** | â Covered (all 5 types) |
-| **Polymorphism** | ð In Progress (Function Overloading â, Operator Overloading ð) |
-| **Abstraction** | ð Upcoming |
+| **Encapsulation** | ✅ Covered |
+| **Inheritance** | ✅ Covered (all 5 types) |
+| **Polymorphism** | 🔄 In Progress (Function Overloading ✅, Operator Overloading 🔄) |
+| **Abstraction** | 📋 Upcoming |
 
 ---
 
-## ð ï¸ How to Compile & Run
+## 🛠️ How to Compile & Run
 
 Make sure you have a C++ compiler like **g++** installed.
 
@@ -173,12 +187,12 @@ arith.exe
 
 ---
 
-## ð Course Info
+## 📚 Course Info
 
 - **Subject:** Object-Oriented Programming (OOP)
-- **Branch:** B.Tech â Electronics and Communication Engineering (ECE)
+- **Branch:** B.Tech - Electronics Engineering (VLSI)
 - **Language:** C++
 
 ---
 
-> ð¡ *Programs are organized unit-wise to align with the semester syllabus and progressively build OOP concepts from basics to advanced.*
+> 💡 *Programs are organized unit-wise to align with the semester syllabus and progressively build OOP concepts from basics to advanced.*
