@@ -4,6 +4,8 @@ using namespace std;
 
 // getter and setter the value of the variable and it will to view and store the values in the private and protected variables
 
+// it is also called Acessor and Mutator
+
 class Teacher{
 
     private:

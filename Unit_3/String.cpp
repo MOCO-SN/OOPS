@@ -16,4 +16,5 @@ int main(){
     cout<<Val[2];
     cout<<Val[6];
 
+
 }

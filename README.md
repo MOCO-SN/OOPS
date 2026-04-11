@@ -10,11 +10,18 @@ A structured collection of C++ programs covering core concepts of Object-Oriente
 OOPS/
 ├── Unit_1/          # Operators & Type Casting
 ├── Unit_2/          # Control Flow & Pattern Programs
-└── Unit_3/          # OOP Concepts, Functions, Recursion & More
-    ├── Encapsulation/
-    ├── Inheritance/
-    │   └── labs-11-03-2026/
-    └── polymorphism/
+├── Unit_3/          # OOP Concepts, Functions, Recursion & More
+│   ├── Encapsulation/
+│   ├── Inheritance/
+│   │   └── labs-11-03-2026/
+│   └── polymorphism/
+├── Unit_4/          # Abstraction & Polymorphism (Advanced)
+│   ├── Abstraction/
+│   └── polymorphism/
+├── Unit_5/          # Advanced Pointers & OOP Concepts
+├── Unit_6/          # Exception Handling
+├── midsem_patterns/ # Mid-semester pattern programs
+└── Extra/          # Additional Programs & Resources
 ```
 
 ---
@@ -127,15 +134,80 @@ Core Object-Oriented Programming topics: classes, objects, functions, pointers, 
 
 ---
 
-### 🔄 Polymorphism
+### 🔄 Polymorphism (Basic)
+
+> The ability of a function or operator to behave differently based on different inputs or contexts. See Unit 4 for detailed implementation.
+
+---
+
+## 🏷️ Unit 4 - Abstraction & Polymorphism (Advanced)
+
+### 🔷 Abstraction
+
+> Hiding complex implementation details and showing only the necessary features to the user.
+
+| File | Description |
+|------|-------------|
+| [`abstraction.cpp`](Unit_4/Absctration/abstraction.cpp) | Introduction to abstraction in C++ |
+
+### 🔄 Polymorphism (Advanced)
 
 > The ability of a function or operator to behave differently based on different inputs or contexts.
 
 | File | Description |
 |------|-------------|
-| [`polymorphism.cpp`](Unit_3/polymorphism/polymorphism.cpp) | Introduction to Polymorphism in C++ |
-| [`funOverloading.cpp`](Unit_3/polymorphism/funOverloading.cpp) | **Function Overloading** - same function `add()` with 0, 1, 2, 3 arguments |
-| [`operatorOverloading.cpp`](Unit_3/polymorphism/operatorOverloading.cpp) | **Operator Overloading** - redefining operators for user-defined types *(in progress)* |
+| [`polymorphism.cpp`](Unit_4/polymorphism/polymorphism.cpp) | Advanced polymorphism concepts |
+| [`funOverloading.cpp`](Unit_4/polymorphism/funOverloading.cpp) | **Function Overloading** - multiple function signatures |
+| [`operatorOverloading.cpp`](Unit_4/polymorphism/operatorOverloading.cpp) | **Operator Overloading** - redefining operators |
+
+---
+
+## 🏷️ Unit 5 - Advanced Pointers & OOP Concepts
+
+Advanced C++ pointer concepts and OOP features.
+
+| File | Description |
+|------|-------------|
+| [`pointerBasic.cpp`](Unit_5/pointerBasic.cpp) | Pointer basics - declaration and usage |
+| [`voidPointer.cpp`](Unit_5/voidPointer.cpp) | Void pointer (`void*`) |
+| [`thispointer.cpp`](Unit_5/thispointer.cpp) | `this` pointer usage in classes |
+| [`staticVariable.cpp`](Unit_5/staticVariable.cpp) | Static variables in classes |
+| [`arrays.cpp`](Unit_5/arrays.cpp) | Array manipulation |
+| [`Early_late_binding.cpp`](Unit_5/Early_late_binding.cpp) | Early binding vs Late binding (virtual functions) |
+
+---
+
+## 📋 Midsem Patterns
+
+Pattern programs for mid-semester exam preparation.
+
+| File | Description |
+|------|-------------|
+| [`pattern1.cpp`](midsem_patterns/pattern1.cpp) | Pattern program for mid-sem exam |
+
+---
+
+## 🏷️ Unit 6 - Exception Handling
+
+### ⚠️ Exception Handling
+
+> A mechanism to handle runtime errors and maintain normal program flow.
+
+| File | Description |
+|------|-------------|
+| [`ExceptionHandling.cpp`](Unit_6/ExceptionHandling.cpp) | Exception handling using try, catch, and throw |
+
+---
+
+## 📁 Extra - Additional Programs & Resources
+
+Additional programs and supplementary materials.
+
+| File | Description |
+|------|-------------|
+| [`FileHandling.cpp`](Extra/FileHandling.cpp) | File I/O operations in C++ |
+| [`data.json`](Extra/data.json) | Sample JSON data file |
+| [`hello.txt`](Extra/hello.txt) | Sample text file |
 
 ---
 
@@ -159,8 +231,8 @@ Core Object-Oriented Programming topics: classes, objects, functions, pointers, 
 |---------|--------|
 | **Encapsulation** | ✅ Covered |
 | **Inheritance** | ✅ Covered (all 5 types) |
-| **Polymorphism** | 🔄 In Progress (Function Overloading ✅, Operator Overloading 🔄) |
-| **Abstraction** | 📋 Upcoming |
+| **Polymorphism** | ✅ Covered (Function & Operator Overloading) |
+| **Abstraction** | ✅ Covered |
 
 ---
 
